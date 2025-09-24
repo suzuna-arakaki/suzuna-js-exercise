@@ -1,2 +1,2 @@
 # javaScript-practice
-JS練習用レポジトリー
+Suzuna JS練習用レポジトリー
