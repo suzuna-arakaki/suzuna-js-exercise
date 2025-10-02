@@ -1,0 +1,12 @@
+const myMap = require('@suzuna/my-map-function')
+
+const doubleNumber = myMap((num) => num * 2)
+console.log(doubleNumber([1, 2, 3]))
+
+const names = [
+        { firstName: "John", lastName: "Smith" },
+        { firstName: "Jane", lastName: "Doe" },
+        { firstName: "Joe", lastName: "Moe" },
+]
+const getFirstNames = myMap((person) => person.firstName)
+console.log(getFirstNames(names))
